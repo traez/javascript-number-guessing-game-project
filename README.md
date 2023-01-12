@@ -28,8 +28,8 @@ This is a solution to the [Javascript Number Guessing Game Project](https://jsbe
 
 ### Links
 
-- Solution URL: [https://github.com/traez/javascript-quiz-project](https://github.com/traez/javascript-quiz-project)
-- Live Site URL: [https://traez.github.io/javascript-quiz-project/](https://traez.github.io/javascript-quiz-project/)
+- Solution URL: [https://github.com/traez/javascript-number-guessing-game-project](https://github.com/traez/javascript-number-guessing-game-project)
+- Live Site URL: [https://traez.github.io/javascript-number-guessing-game-project/](https://traez.github.io/javascript-number-guessing-game-project/)
 
 ## My process
 
