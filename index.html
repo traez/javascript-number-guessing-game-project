@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Trae's Number Guessing Game Project</title>
+<meta charSet="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-traedays.png">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<!-- 
+<button onclick="alert('Hello World 1')">Click Me now 1</button>
+-->
+<body>
+
+    <main>
+
+        <header>
+            <h1>Number Guessing Game</h1> 
+
+            <h2>The computer has chosen a random number between 1 and 99 inclusive</h2>
+    
+            <blockquote>
+                <h2>Are you smarter than AI?</h2>
+                <h2>You have 7 attempts to guess right and prove so.</h2>
+            </blockquote>
+        </header>
+
+        <section>
+            <div id="number-input">
+                <h3>Guess a number</h3>
+                <input type="text" maxlength="2" placeholder="00">
+                <button type="button">Submit guess</button>
+            </div>
+
+            <div id="number-output">
+                <h3>Previous Guesses: <span id="guesses">00 00 00 00 00 00 00</span></h3>
+                <h3>Guesses Remaining: <strong>7</strong></h3>
+            </div>
+        </section>
+
+        <footer>
+            <h4 class="hide high">Number guessed <small>too High!</small> Try again!</h4>
+            <h4 class="hide low">Number guessed <small>too low!</small> Try again!</h4>
+
+            <h5 class="hide won">Congratulations! You guessed correctly, with <i>X</i> tries! <span class="start">Start New Game</span></h5>
+            <h5 class="hide lost">Game Over! You guessed wrongly. Chosen number was <b>100</b>. <span class="start">Start New Game</span></h5>
+
+            <nav><a href="https://github.com/traez/javascript-quiz-project" target="_blank">https://github.com/traez</a></nav>
+        </footer>
+  
+    </main>  
+
+  <script src="script.js"></script>
+</body>
+
+</html>

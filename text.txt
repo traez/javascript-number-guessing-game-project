@@ -1,0 +1,18 @@
+Number guessing game
+
+The computer has chosen a random number between 1 and 100 inclusive.
+
+Are you smarter than AI? 
+You have 10 attempts to guess right and prove so.
+
+Guess a number 
+INPUT - Submit guess
+ 
+Previous Guesses: 57 67 61 63 64 65 66
+Guesses Remaining: 3
+
+Number guessed too High! Try again!
+Number guessed too low! Try again!
+
+Congratulations. You guessed correctly, with X tries! Start New Game
+Game Over! You guessed wrongly. Chosen number was 100. Start New Game

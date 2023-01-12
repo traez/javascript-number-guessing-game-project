@@ -1,0 +1,124 @@
+/* 
+1080x1920 (360 * 3/480 * 4)
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: linear-gradient(to left top, #EADDCA, #efdecd, #F2D2BD);
+    padding:1rem;
+    font-family: 'Trebuchet MS';
+    display: flex;
+	flex-flow: column;
+	justify-content: center; 
+	align-items: center;
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 19rem;
+    height: 26rem;
+    border: 4px solid hsla(31, 34%, 54%, 0.845);
+    border-radius: 0.5rem;
+    display:grid;
+    grid-template: 1fr 13fr 1fr/auto;
+    grid-template-areas:
+        "top"
+        "middle"
+        "bottom";
+}
+header{
+    grid-area: top;
+    display: flex;
+	flex-flow: column;
+	justify-content: center; 
+	align-items: center;
+    gap:0.4rem;
+}
+h1{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight:900;
+}
+h2{
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight:900;
+}
+blockquote{
+    width: 90%;
+    margin: 0 auto;
+}
+section{
+    grid-area: middle;
+    border: 2px dashed hsla(31, 34%, 54%, 0.845);
+    display:grid;
+    grid-template: 1fr 1fr/auto;
+    grid-template-areas:
+        "halftop"
+        "halfbottom";
+}
+input, button{
+    cursor: pointer;
+}
+#number-input{
+    grid-area: halftop;
+    display: flex;
+	flex-flow: column;
+	justify-content:space-around; 
+	align-items: center;
+}
+#number-output{
+    grid-area: halfbottom;
+    display: flex;
+	flex-flow: column;
+	justify-content:space-around; 
+	align-items: center;
+}
+h3 {
+    font-size: 0.9rem;
+  }
+footer{
+    grid-area: bottom;
+    display: flex;
+	flex-flow: column;
+	justify-content:space-around; 
+	align-items: center;
+}
+.hide{
+    display:none;
+}
+h4{
+    font-size: 0.9rem;
+  }
+h5 {
+    font-size: 0.85rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+small{
+color:red;
+font-size: 1rem;
+text-shadow: purple 1px 1px;
+  }
+i, b{
+    color:green;
+    font-size: 1rem;  
+    text-shadow: purple 1px 1px;
+}
+.start{
+    color:yellow;
+    font-size: 1rem;  
+    text-shadow: black 2px 2px;
+    cursor: pointer;
+}
+nav{
+    font-size: 0.7rem;
+    margin-left:10rem; 
+}
