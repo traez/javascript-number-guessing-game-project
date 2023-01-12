@@ -74,6 +74,10 @@ input, button{
 	justify-content:space-around; 
 	align-items: center;
 }
+button{
+    padding:0.5rem;
+    font-size: 1.1rem;
+}
 #number-output{
     grid-area: halfbottom;
     display: flex;
